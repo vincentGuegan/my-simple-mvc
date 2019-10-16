@@ -1,5 +1,8 @@
 <?php
-echo "hello world";
-$title = "hello world";
+require __DIR__.'/model.php';
 
-require_DIR_.'/view.php';
+
+$title = "hello world";
+$array = getFooBarBaz();
+
+require __DIR__.'/view.php';
