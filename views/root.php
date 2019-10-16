@@ -8,7 +8,7 @@
     </h1>
     <ul>
         <?php foreach($array as $value): ?>
-            <li><?= value ?>
+            <li><?= $value ?>
             <?php endforeach ?>
     </ul>
   </body>

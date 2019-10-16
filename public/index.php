@@ -1,8 +1,6 @@
 <?php
-require __DIR__.'/../models/model.php';
 
+require __DIR__.'/../controllers/Rootcontroller.php';
 
-$title = "hello world";
-$array = getFooBarBaz();
+echo (new RootController)->get();
 
-require __DIR__.'/../views/view.php';
